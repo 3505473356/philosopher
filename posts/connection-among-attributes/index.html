@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Connections among attributes | Network of Philosophers</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.4" />
+<link rel="stylesheet" href="https://clam-xy.github.io/css/eureka.min.css">
+<script defer src="https://clam-xy.github.io/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://clam-xy.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://clam-xy.github.io/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="This is the webpage of our final project">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Studies",
+      "item":"https://clam-xy.github.io/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Connections among attributes",
+      "item":"https://clam-xy.github.io/posts/connection-among-attributes/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://clam-xy.github.io/posts/connection-among-attributes/"
+    },
+    "headline": "Connections among attributes | Network of Philosophers","datePublished": "2021-12-01T00:00:00+00:00",
+    "dateModified": "2021-12-01T00:00:00+00:00",
+    "wordCount":  924 ,
+    "author": {
+        "@type": "Person",
+        "name": ["Hugo Authors"]
+    },
+    "publisher": {
+        "@type": "Person",
+        "name": "Xinyu Liu",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://clam-xy.github.io/thinker.png"
+        }
+        },
+    "description": "This is the webpage of our final project"
+}
+</script><meta property="og:title" content="Connections among attributes | Network of Philosophers" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://clam-xy.github.io/images/icon.png">
+
+
+<meta property="og:url" content="https://clam-xy.github.io/posts/connection-among-attributes/" />
+
+
+
+<meta property="og:description" content="This is the webpage of our final project" />
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Network of Philosophers" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2021-12-01T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2021-12-01T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+<meta property="article:tag" content="markdown" />
+
+<meta property="article:tag" content="themes" />
+
+
+
+
+
+<meta property="og:see_also" content="https://clam-xy.github.io/posts/markdown-syntax/" />
+
+<meta property="og:see_also" content="https://clam-xy.github.io/posts/placeholder-text/" />
+
+
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Network of Philosophers</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">About</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">Pages</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2  lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">Connections among attributes</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-12-01</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>5 min read</span>
+    </div>
+    
+    
+    <div class="mr-6 my-2">
+        <i class="fas fa-folder mr-1"></i>
+        
+        <a href="https://clam-xy.github.io/categories/desciption-page/" class="hover:text-eureka">desciption page</a>
+        
+    </div>
+    
+
+    
+</div>
+        
+        
+        
+
+        <div class="content">
+            <p>This page shows the analysis of connections among fields, theories and eras. Philosophy has many fields and has born many theories, if one field connects strongly with one or some specific theories? In other words, if one philosopher belong to one field prefers to research one or specific theories? In addition, did philosophy change a lot with time going on? If some theories or fields just created or being popular in recent years? One <a href="http://networksciencebook.com/chapter/2#weighted-networks">weight network</a> is built to analyse the connections among these three attributes. The following is the result and how I found it<span class="nowrap"><span class="emojify">😎</span>.</p>
+<h2 id="extracting-elements-and-build-dataset">Extracting elements and build dataset</h2>
+<p>To build one network, corresponding <a href="https://github.com/clam-xy/dataset">dataset</a> need to create first<span class="nowrap"><span class="emojify">💡</span>. Therefore, all the philosophers' name extracted in &ldquo;Lists of philosophers by era&rdquo;, then finding their research field and research theories in &ldquo;Lists of philosophers by field&rdquo; and &ldquo;Lists of philosophers by philosophical theory&rdquo; in <a href="https://en.wikipedia.org/wiki/Lists_of_philosophers">wikipedia</a> by using <a href="https://beautiful-soup-4.readthedocs.io/en/latest/">BeautifulSoup</a>. Finally, one excel with philosophers and their research fields, theories and eras is saved by using <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html">DataFrame</a>.</p>
+<p>Wikipedia does not have one complete list, because phiosophers in various list is different, which really troubles me when collecting data.<span class="nowrap"><span class="emojify">🙉</span></p>
+<h2 id="building-weight-network">Building weight network</h2>
+<p>One network is combined with nodes and edges, for weight network, it also has weight in each edge. In this network:</p>
+<ul>
+<li>
+<p>Nodes are different classes of eras(18th, 19th, 20th), theories(atheist, humanist, utilitarian, rationalist, environmental) and fields(science, mind, religion, feminist, language).</p>
+</li>
+<li>
+<p>For edges, the classes of different attributes of one philosopher links each other, namely if one philosopher born in <code>twenty</code> era prefers <code>environmental</code> theory and belong to <code>science</code> field. Then these three nodes will be connected with each other which creates three links.</p>
+</li>
+<li>
+<p>The weight is the number of specific link.</p>
+</li>
+</ul>
+<p>Below is the weight network created by using <a href="https://networkx.org/">networkx</a>:</p>
+<p><img src="/weightnetwork.png" alt="Example image alt <>">
+<code>Figure 1</code>:This graph shows the weight network, width of edge correspond to it&rsquo;s weight. Sky blue nodes belong to &ldquo;era&rdquo;, dark blue nodes belong to &ldquo;field&rdquo; and dark yellow nodes belong to &ldquo;theory&rdquo;.</p>
+<h3 id="degree-distribution">Degree distribution</h3>
+<p>Degree of a node in a network is the number of connections it has to other nodes and the <a href="https://en.wikipedia.org/wiki/Degree_distribution">degree distribution</a> is the probability distribution of these degrees over the whole network. Below is the degree distribution in this network drawed by using <a href="https://matplotlib.org/">matplotlib</a>:</p>
+<p><img src="/Degree.png" alt="Example image alt <>">
+<code>Figure 2</code>:The first five nodes belong to &ldquo;field&rdquo; attribute, the middle five nodes belong to &ldquo;theory&rdquo; attribute and the last three nodes are eras.</p>
+<p>According to this degree distribution. Degree of 19 and 18 era is less than 10 whcih means some theories or field do not build link to them, therefore there are some new theories or fields do not created or not common before 20th. Degree of &ldquo;science&rdquo;, &ldquo;mind&rdquo;, &ldquo;atheist&rdquo; and &ldquo;utilitarian&rdquo; is 8 which means they have links with all eras and theories or fields, therefore these fields or theories are rich in content and live long time. Meanwhile, degree of environmental is lowest with 4, so environmental theory is very young, maybe we need to appeal more people to focus on our environment.<span class="nowrap"><span class="emojify">🌏</span></p>
+<h3 id="weight-heatmap">Weight heatmap</h3>
+<p>Weight is the number of one edge and <a href="https://en.wikipedia.org/wiki/Heat_map">heatmap</a> is data visualization technique that shows magnitude of a phenomenon as color in two dimensions.</p>
+<p>To draw heatmap, <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html">DataFrame</a> need first, it uses nodes name as colunmns and indexs, value is the weight between each, it shows below:</p>
+<p><img src="/DF.png" alt="Example image alt <>">
+<code>Figure 3</code>:The table takes nodes as columns and indexs, the value is corresponds to the weight of them.</p>
+<p>Then, the heatmap is drawn by using <a href="http://seaborn.pydata.org/">seaborn</a>:</p>
+<p><img src="/Heatmap.png" alt="Example image alt <>">
+<code>Figure 4</code>:The heatmap shows the weight between nodes.</p>
+<p>As shown in figure4, weight for link between &ldquo;twenty&rdquo; and &ldquo;athesit&rdquo; is the biggest as 30 and that of link between &ldquo;twenty&rdquo; and &ldquo;utilitarian&rdquo;, &ldquo;religion&rdquo;, &ldquo;religion&rdquo; and &ldquo;feminist&rdquo; is low with value around 2 to 4. It seems much more people believe science now <span class="nowrap"><span class="emojify">🚀</span>. &ldquo;Athesit&rdquo; connect strongly with &ldquo;science&rdquo;, &ldquo;mind&rdquo; and &ldquo;language&rdquo; field. &ldquo;Environmental&rdquo; and &ldquo;rationalist&rdquo; have less weight with other nodes. &ldquo;Utilitarian&rdquo; has bigger weight links with &ldquo;science&rdquo; and &ldquo;mind&rdquo; while the link to &ldquo;feminist&rdquo;, &ldquo;language&rdquo; and &ldquo;religion&rdquo;. &ldquo;Humanists&rdquo; has strong link with &ldquo;science&rdquo; while the weight of links with other theories is small.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>That&rsquo;s all the content of my analysis in this part, now it is time for conclusion.<span class="nowrap"><span class="emojify">👏</span></p>
+<p>According to analysis above, the number of philosophers is growing rapidly in 20th! Maybe our life is much more better than before which makes people have time and energy to study philosophy. <span class="nowrap"><span class="emojify">✌️</span></p>
+<p>For eras, some theories and fields is becoming popular, such as: mind, science, language in field and environmental, atheist, rationalist and humanists. Especially, for atheist, rationlist, science, mind, environmental and feminist, the weight increases quickly, which means philosophers are focuing on law of nature instead of superstition and attach importance to humen being and humen equality.</p>
+<p>For fields and theories, mind, science and language have more links with other theories, which are much more popular than feminist and religion. And science connects with atheist strongly, which makes sense. Mind and language are both connect with atheist strongly, which means philosophers focus on the evolution of human being instead of believing God creates humanity and language. And for environmental and rationalist theories, they are emerging theories which only appears in 20th. This shows the influence of science to philosophy, more people focus on material world and the relationship between environment and human being.</p>
+<p>To sum up, the number of philosophers is growing, especially for philosophers in &ldquo;science&rdquo; and &ldquo;atheist&rdquo;, more types of fields and theories are creating as well. And philosophers focus on humanity and real world under the significant influence of modern science and technology.</p>
+        </div>
+        
+        <div class="my-4">
+    
+    <a href="https://clam-xy.github.io/tags/markdown/" class="inline-block bg-tertiary-bg text-sm rounded px-3 py-1 my-1 mr-2 hover:text-eureka">#markdown</a>
+    
+    <a href="https://clam-xy.github.io/tags/themes/" class="inline-block bg-tertiary-bg text-sm rounded px-3 py-1 my-1 mr-2 hover:text-eureka">#themes</a>
+    
+</div>
+        
+        
+        
+
+
+        
+        
+        <div class="py-2">
+    
+    <div class="flex flex-col md:flex-row items-center my-8">
+        <a href="https://clam-xy.github.io/authors/hugo-authors/" class="w-24 h-24 md:mr-4">
+            
+            
+            <i class="fas fa-user-circle fa-6x"></i>
+            
+        </a>
+        <div class="w-full md:w-auto mt-4 md:mt-0">
+            <a href="https://clam-xy.github.io/authors/hugo-authors/" class="block font-bold text-lg pb-1 mb-2 border-b">Xinyu Liu</a>
+            <span class="block pb-2">One coder in mechanical engineer with less hair</span>
+            
+            
+            
+            
+            
+            <a href="mailto:s212632@dtu.dk" class="mr-1">
+                <i class="fas fa-envelope"></i>
+            </a>
+            
+            
+            
+            
+            
+            <a href="" class="mr-1">
+                <i class="&lt;nil&gt; fa-&lt;nil&gt;"></i>
+            </a>
+            
+            
+            
+            
+            
+            <a href="https://github.com/clam-xy/clam-xy.github.io" class="mr-1">
+                <i class="fab fa-github"></i>
+            </a>
+            
+        </div>
+    </div>
+    
+</div>
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+        <span class="block font-bold">Next</span>
+        <a href="https://clam-xy.github.io/posts/core_areas/" class="block">Core areas</a>
+        
+    </div>
+</div>
+
+        
+
+
+
+    </div>
+    
+    <div class="col-span-2">
+        
+        
+        <div class="sticky top-16 z-10 hidden lg:block px-6 py-4  bg-primary-bg ">
+    <span class="text-lg font-semibold">On This Page</span>
+</div>
+<div class="sticky-toc hidden lg:block px-6 pb-6 ">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#extracting-elements-and-build-dataset">Extracting elements and build dataset</a></li>
+    <li><a href="#building-weight-network">Building weight network</a>
+      <ul>
+        <li><a href="#degree-distribution">Degree distribution</a></li>
+        <li><a href="#weight-heatmap">Weight heatmap</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+</div>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        enableStickyToc();
+    });
+</script>
+        
+    </div>
+    
+
+    
+    
+    <div
+        class="col-span-2  lg:col-span-6 bg-secondary-bg rounded p-6">
+        <h2 class="text-lg font-semibold mb-4">See Also</h2>
+        <div class="content">
+            
+            <a href="https://clam-xy.github.io/posts/markdown-syntax/">Markdown Syntax Guide</a>
+            <br />
+            
+            <a href="https://clam-xy.github.io/posts/placeholder-text/">Placeholder Text</a>
+            <br />
+            
+        </div>
+    </div>
+    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://www.wangchucheng.com/">C. Wang</a> and <a href="https://www.ruiqima.com/">R. Ma</a>
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+  </footer>
+</body>
+
+</html>
